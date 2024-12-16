@@ -1,0 +1,137 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: gray;
+    color: #333;
+}
+
+header {
+    background-color: black;
+    color: yellow;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para as seções */
+.section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+#MiViVa{
+    position: relative;
+    border:  1px solid blue;
+    height: 480px;
+    z-index: -2;
+}
+.C1{
+      position: absolute;
+      top: 10px;
+      text-align: center;
+      padding-top: 160px;
+
+    width: 350px;
+    height: 350px;
+    background-color: blue;
+    border-radius: 175px;
+    color: white;
+   
+    border: solid;
+    border-color: grey;
+}
+.C2{
+    position: absolute;
+    left: 283px;
+    top: 100px;
+    text-align: center;
+    padding-top: 160px;
+
+   width: 350px;
+    height: 350px;
+    background-color: blue;
+    border-radius: 175px;
+    color: white ;
+   
+    border: solid;
+    border-color: grey;
+}
+.C3{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-align: center;
+    padding-top: 160px;
+    color: white;
+
+   width: 350px;
+    height: 350px;
+    background-color: blue;
+    border-radius: 175px;
+   
+    border: solid;
+    border-color: grey;
+    z-index: -1;
+}
+
+/* Estilos do rodapé */
+footer {
+    position: fixed;
+    bottom: 0;
+
+    width: 100vw;
+    text-align: center;
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    
+   
+}
